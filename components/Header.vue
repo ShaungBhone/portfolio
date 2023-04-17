@@ -2,7 +2,7 @@
   <div class="container">
     <nav class="flex justify-between py-11">
       <div>
-        <h5 class="font-bold text-md">I'm Bhone Myint Zaw aka Shaung Bhone.</h5>
+        <h5 class="font-bold text-lg">I'm Bhone Myint Zaw aka Shaung Bhone.</h5>
         <p>
           A <span class="bg-cyan-300 p-1">Full Stack Developer</span>, Blogger
           and Freelancer.
