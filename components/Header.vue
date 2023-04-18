@@ -3,7 +3,7 @@
     <nav class="lg:flex lg:justify-between py-7 md:py-11">
       <div class="flex justify-between flex-col-reverse md:flex-row">
         <div class="mt-3 md:mt-0">
-          <h5 class="font-bold text-lg">
+          <h5 class="font-bold md:text-lg text-sm">
             I'm Bhone Myint Zaw aka Shaung Bhone.
           </h5>
           <p>

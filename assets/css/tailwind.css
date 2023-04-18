@@ -4,6 +4,6 @@
 
 @layer components {
   .primary-btn {
-    @apply py-4 text-lg px-20 border-gray-800 border-2 hover:bg-gray-900 hover:text-white transition ease-in-out delay-100;
+    @apply py-4 text-lg px-16 border-gray-800 border-2 hover:bg-gray-900 hover:text-white transition ease-in-out delay-100;
   }
 }

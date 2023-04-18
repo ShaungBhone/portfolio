@@ -8,7 +8,7 @@
       />
       <div class="container">
         <p
-          class="md:text-5xl/snug xl:text-6xl/snug text-3xl/snug font-extralight lg:w-1/2 xl:pt-32 py-12"
+          class="md:text-5xl/snug xl:text-6xl/snug text-2xl/snug font-extralight lg:w-1/2 xl:pt-32 py-12"
         >
           <span class="p-1 italic">Digital </span>
           <span class="italic">change-maker</span> <br />
@@ -34,7 +34,7 @@
         like on your page. I’m a great place for you to tell a story and let
         your users know a little more about you.
       </p>
-      <p class="md:mt-14 mt-5 text-4xl/relaxed font-thin">
+      <p class="md:mt-14 mt-5 text-2xl/relaxed md:text-4xl/relaxed font-thin">
         <span>Content Strategy</span>&nbsp;
         <span class="p-1 bg-gray-900 text-white">Writing</span> <br />
         <span class="p-1 bg-gray-300">Project Management</span><br />
@@ -63,7 +63,7 @@
     <section>
       <div class="container md:-mt-36 -mt-20">
         <div
-          class="bg-gray-300 xl:ml-48 xl:mr-80 lg:mr-56 lg:py-16 lg:px-24 py-10 px-10 space-y-10 lg:space-y-16 relative"
+          class="bg-gray-300 xl:ml-48 xl:mr-80 lg:mr-56 lg:py-16 lg:px-24 px-5 py-7 space-y-10 lg:space-y-16 relative"
         >
           <h1 class="lg:text-6xl text-4xl font-thin leading-tight">
             I <span class="font-bold">advise</span> companies <br />
@@ -217,7 +217,7 @@
       <div class="bg-white py-14">
         <div class="container">
           <div class="mx-auto lg:mx-0 text-center">
-            <h2 class="font-thin tracking-tight text-gray-900 text-6xl">
+            <h2 class="font-thin tracking-tight text-gray-900 text-3xl md:text-6xl">
               Recent <span class="font-bold">Blog</span> Posts
             </h2>
             <p class="mt-5 text-lg leading-8 text-gray-600">
