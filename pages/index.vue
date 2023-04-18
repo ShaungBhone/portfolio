@@ -34,12 +34,12 @@
         like on your page. I’m a great place for you to tell a story and let
         your users know a little more about you.
       </p>
-      <p class="md:mt-14 mt-5 text-4xl font-thin leading-relaxed">
+      <p class="md:mt-14 mt-5 text-4xl/relaxed font-thin">
         <span>Content Strategy </span>
         <span class="p-1 bg-gray-900 text-white">Writing</span> <br />
         <span class="p-1 bg-gray-300">Project Management</span><br />
-        <span>Branding</span> <span>Social Media</span> <br />
-        <span>Events Content</span> <span>Fundraising</span> <br />
+        <span class="p-1 bg-gray-900 text-white">Laravel</span> <span>Nodejs</span> <br />
+        <span class="p-1 bg-gray-300">PostgreSQL</span> <span class="p-1 bg-gray-900 text-white">Tailwind</span> <br />
         <span>Creative Initiatives</span>
       </p>
       <div class="mt-20">
@@ -143,8 +143,8 @@
       </div>
     </section>
     <section class="mt-16">
-      <div class="bg-white py-16">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="bg-white py-14">
+        <div class="container">
           <div class="mx-auto lg:mx-0 text-center">
             <h2 class="font-thin tracking-tight text-gray-900 text-6xl">
               Recent <span class="font-bold">Blog</span> Posts

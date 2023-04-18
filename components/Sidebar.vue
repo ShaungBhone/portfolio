@@ -7,12 +7,12 @@
       tabindex="-1"
       aria-labelledby="drawer-navigation-label"
     >
-      <h5
+      <div
         id="drawer-navigation-label"
         class="text-base font-semibold text-gray-500 uppercase dark:text-gray-400"
       >
         Menu
-      </h5>
+      </div>
       <button
         type="button"
         data-drawer-hide="drawer-navigation"
