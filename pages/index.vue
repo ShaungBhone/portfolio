@@ -106,7 +106,7 @@
       <div class="bg-white py-12 sm:py-24">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div
-            class="mx-auto grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-5 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4"
+            class="mx-auto grid max-w-lg items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-5 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4"
           >
             <img
               class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
