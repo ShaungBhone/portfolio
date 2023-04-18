@@ -2,12 +2,14 @@
   <div>
     <section class="relative">
       <img
-        class="absolute w-1/3 right-0 top-0"
+        class="lg:absolute lg:w-1/3 lg:right-0 lg:top-0"
         src="~/assets/images/my-photo.jpg"
         alt="shaungbhone"
       />
       <div class="container">
-        <p class="text-6xl font-extralight leading-snug lg:w-1/2 xl:pt-32 pt-0">
+        <p
+          class="md:text-5xl/snug xl:text-6xl/snug text-3xl/snug font-extralight lg:w-1/2 xl:pt-32 py-12"
+        >
           <span class="p-1 italic">Digital </span>
           <span class="italic">change-maker</span> <br />
           seeking <span class="bg-cyan-300">next opportunity</span> <br />
@@ -16,13 +18,15 @@
         </p>
       </div>
     </section>
-    <section class="mt-60 relative">
-      <h1 class="text-6xl font-thin container">
+    <section class="xl:mt-60 lg:mt-28 relative">
+      <h1 class="md:text-6xl text-4xl font-thin container">
         This is <span class="font-bold">me</span>
       </h1>
-      <div class="w-3/5 bg-cyan-300 h-40 absolute left-0 top-6 -z-10"></div>
+      <div
+        class="w-3/5 bg-cyan-300 md:h-40 h-20 absolute left-0 top-6 -z-10"
+      ></div>
     </section>
-    <section class="container px-96 mt-44">
+    <section class="container xl:px-96 md:mt-44 mt-24">
       <p class="text-lg">
         I'm a paragraph. Click here to add your own text and edit me. It’s easy.
         Just click “Edit Text” or double click me to add your own content and
@@ -30,7 +34,7 @@
         like on your page. I’m a great place for you to tell a story and let
         your users know a little more about you.
       </p>
-      <p class="mt-14 text-4xl font-thin leading-relaxed">
+      <p class="md:mt-14 mt-5 text-4xl font-thin leading-relaxed">
         <span>Content Strategy </span>
         <span class="p-1 bg-gray-900 text-white">Writing</span> <br />
         <span class="p-1 bg-gray-300">Project Management</span><br />
@@ -42,10 +46,10 @@
         <NuxtLink class="primary-btn" to="/resume">Full Resume</NuxtLink>
       </div>
     </section>
-    <section class="mt-10">
+    <section class="md:mt-10 mt-28">
       <div class="flex">
-        <div class="w-3/5"></div>
-        <div class="w-2/5">
+        <div class="xl:w-3/5 lg:w-1/2 hidden md:block"></div>
+        <div class="xl:w-2/5 lg:w-1/2 w-full">
           <img
             class="grayscale"
             src="~/assets/images/sb-looks-laptop.jpg"
@@ -55,9 +59,9 @@
       </div>
     </section>
     <section>
-      <div class="container -mt-36">
-        <div class="bg-gray-300 ml-48 mr-80 py-16 px-24 space-y-16 relative">
-          <h1 class="text-6xl font-thin leading-tight">
+      <div class="container md:-mt-36 -mt-20">
+        <div class="bg-gray-300 xl:ml-48 xl:mr-80 lg:mr-56 lg:py-16 lg:px-24 py-10 px-10 space-y-10 lg:space-y-16 relative">
+          <h1 class="lg:text-6xl text-4xl font-thin leading-tight">
             I <span class="font-bold">advise</span> companies <br />
             and my clients in initiatives.
           </h1>
@@ -79,16 +83,16 @@
           <div>
             <NuxtLink class="primary-btn" to="/resume">Get in touch</NuxtLink>
           </div>
-          <div class="bg-cyan-300 w-24 h-[96%] absolute top-0 -right-12"></div>
+          <div class="bg-cyan-300 w-24 h-[96%] absolute top-0 -right-12 hidden lg:block"></div>
         </div>
       </div>
     </section>
     <section class="mt-24 relative">
-      <h1 class="text-6xl font-thin container">
+      <h1 class="md:text-6xl text-4xl font-thin container">
         <span>Clients &</span> <br />
         <span class="font-bold">Collaborations</span>
       </h1>
-      <div class="w-3/5 bg-cyan-300 h-40 absolute left-0 top-24 -z-10"></div>
+      <div class="w-3/5 bg-cyan-300 h-40 absolute left-0 lg:top-24 top-10 -z-10"></div>
     </section>
     <section class="container mt-10">
       <div class="bg-white py-24 sm:py-32">
@@ -196,8 +200,6 @@
                 </div>
               </div>
             </article>
-
-            <!-- More posts... -->
           </div>
         </div>
       </div>
