@@ -102,7 +102,7 @@
         class="w-3/5 bg-cyan-300 h-40 absolute left-0 lg:top-24 top-10 -z-10"
       ></div>
     </section>
-    <section class="container mt-10">
+    <section class="container mt-40">
       <div class="bg-white py-12 sm:py-24">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div
