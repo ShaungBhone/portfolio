@@ -34,7 +34,7 @@
         like on your page. I’m a great place for you to tell a story and let
         your users know a little more about you.
       </p>
-      <p class="md:mt-14 mt-5 text-2xl/relaxed md:text-4xl/relaxed font-thin">
+      <p class="md:mt-14 mt-5 text-2xl/loose md:text-4xl/relaxed font-thin">
         <span>Content Strategy</span>&nbsp;
         <span class="p-1 bg-gray-900 text-white">Writing</span> <br />
         <span class="p-1 bg-gray-300">Project Management</span><br />
