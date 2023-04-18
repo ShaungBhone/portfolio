@@ -6,7 +6,7 @@
           <h5 class="font-bold md:text-lg text-sm">
             I'm Bhone Myint Zaw aka Shaung Bhone.
           </h5>
-          <p>
+          <p class="mt-5">
             A <span class="bg-cyan-300 p-1">Full Stack Developer</span>, Blogger
             and Freelancer.
           </p>
