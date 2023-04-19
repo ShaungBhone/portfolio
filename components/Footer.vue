@@ -1,3 +1,18 @@
+<script setup>
+const supabase = useSupabaseClient();
+const email = ref("");
+const subscribe = async () => {
+  const { error } = await supabase
+    .from("subscribers")
+    .insert({ email: email.value }, { returning: "minimal" });
+  if (error) {
+    console.error(error);
+  } else {
+    email.value = "";
+    console.log("Subscribed successfully!");
+  }
+};
+</script>
 <template>
   <div>
     <footer>
@@ -17,24 +32,29 @@
               <p class="mt-4 text-lg leading-8 text-gray-300">
                 I sometimes send newsletters.
               </p>
-              <div class="mt-6 flex max-w-md gap-x-4">
-                <label for="email-address" class="sr-only">Email address</label>
-                <input
-                  id="email-address"
-                  name="email"
-                  type="email"
-                  autocomplete="email"
-                  required
-                  class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-cyan-300 sm:text-sm sm:leading-6"
-                  placeholder="Enter your email"
-                />
-                <button
-                  type="submit"
-                  class="flex-none rounded-md bg-cyan-300 px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-cyan-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-300"
-                >
-                  Subscribe
-                </button>
-              </div>
+              <form @submit.prevent="subscribe">
+                <div class="mt-6 flex max-w-md gap-x-4">
+                  <label for="email-address" class="sr-only"
+                    >Email address</label
+                  >
+                  <input
+                    id="email-address"
+                    v-model="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    required
+                    class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-cyan-300 sm:text-sm sm:leading-6"
+                    placeholder="Enter your email"
+                  />
+                  <button
+                    type="submit"
+                    class="flex-none rounded-md bg-cyan-300 px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-cyan-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-300"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              </form>
             </div>
             <dl
               class="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2"
