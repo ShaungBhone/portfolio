@@ -32,7 +32,16 @@
     </section>
     <section class="container xl:px-96 md:mt-44 mt-24">
       <p class="text-lg">
-        I've been learning to code for 4 years, after switching careers. I started with HTML, CSS, and javascript. And I made a simple static project called Yangon Night. But have really found a passion for backend development. So I started with PHP with the laravel framework and I got a job at a web agency called Digital Dots as a junior web developer. And then, I have done many projects here and built many laravel projects. Sometimes, contributing the Burmese language to packages like filament admin and voyager admin, and others. However, I need to level up my skill and change to another company as a full-stack developer called MINT. Currently, work here.
+        I've been learning to code for 4 years, after switching careers. I
+        started with HTML, CSS, and javascript. And I made a simple static
+        project called Yangon Night. But have really found a passion for backend
+        development. So I started with PHP with the laravel framework and I got
+        a job at a web agency called Digital Dots as a junior web developer. And
+        then, I have done many projects here and built many laravel projects.
+        Sometimes, contributing the Burmese language to packages like filament
+        admin and voyager admin, and others. However, I need to level up my
+        skill and change to another company as a full-stack developer called
+        MINT. Currently, work here.
       </p>
       <p class="md:mt-14 mt-5 text-2xl/loose md:text-4xl/relaxed font-thin">
         <span>Content Strategy</span>&nbsp;
@@ -85,7 +94,7 @@
             suitable options.
           </p>
           <div>
-            <NuxtLink class="primary-btn" to="/resume">Get in touch</NuxtLink>
+            <NuxtLink class="primary-btn" to="/contact">Get in touch</NuxtLink>
           </div>
           <div
             class="bg-cyan-300 w-24 h-[96%] absolute top-0 -right-12 hidden lg:block"
@@ -102,22 +111,22 @@
         class="w-3/5 bg-cyan-300 h-40 absolute left-0 lg:top-24 top-10 -z-10"
       ></div>
     </section>
-    <section class="container mt-40">
+    <section class="container mt-48">
       <div class="bg-white py-12 sm:py-24">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div
-            class="mx-auto grid max-w-lg items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-5 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4"
+            class="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5"
           >
             <img
               class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="~/assets/images/digify-me-logo-red.png"
-              alt="Digifyme"
+              src="~/assets/images/msme.png"
+              alt="MSME"
               width="158"
               height="48"
             />
             <img
               class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="~/assets/images/msme.png"
+              src="~/assets/images/dd.png"
               alt="MSME"
               width="158"
               height="48"
@@ -209,6 +218,13 @@
                 </clipPath>
               </defs>
             </svg>
+            <img
+              class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="~/assets/images/digify-me-logo-red.png"
+              alt="Digifyme"
+              width="158"
+              height="48"
+            />
           </div>
         </div>
       </div>
@@ -250,7 +266,7 @@
                   </a>
                 </h3>
                 <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
-                  IThis post is just for dummy. Blog post will coming soon.
+                  This post is just for dummy. Blog post will coming soon.
                 </p>
               </div>
               <div class="relative mt-8 flex items-center gap-x-4">
