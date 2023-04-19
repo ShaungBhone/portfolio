@@ -32,11 +32,7 @@
     </section>
     <section class="container xl:px-96 md:mt-44 mt-24">
       <p class="text-lg">
-        I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-        Just click “Edit Text” or double click me to add your own content and
-        make changes to the font. Feel free to drag and drop me anywhere you
-        like on your page. I’m a great place for you to tell a story and let
-        your users know a little more about you.
+        I've been learning to code for 4 years, after switching careers. I started with HTML, CSS, and javascript. And I made a simple static project called Yangon Night. But have really found a passion for backend development. So I started with PHP with the laravel framework and I got a job at a web agency called Digital Dots as a junior web developer. And then, I have done many projects here and built many laravel projects. Sometimes, contributing the Burmese language to packages like filament admin and voyager admin, and others. However, I need to level up my skill and change to another company as a full-stack developer called MINT. Currently, work here.
       </p>
       <p class="md:mt-14 mt-5 text-2xl/loose md:text-4xl/relaxed font-thin">
         <span>Content Strategy</span>&nbsp;
@@ -254,10 +250,7 @@
                   </a>
                 </h3>
                 <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
-                  Illo sint voluptas. Error voluptates culpa eligendi. Hic vel
-                  totam vitae illo. Non aliquid explicabo necessitatibus unde.
-                  Sed exercitationem placeat consectetur nulla deserunt vel.
-                  Iusto corrupti dicta.
+                  IThis post is just for dummy. Blog post will coming soon.
                 </p>
               </div>
               <div class="relative mt-8 flex items-center gap-x-4">
