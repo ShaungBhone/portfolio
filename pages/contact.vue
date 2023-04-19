@@ -1,5 +1,8 @@
 <template>
   <div>
+    <Head>
+      <Title>Contact | Portfolio</Title>
+    </Head>
     <section class="mt-10 relative">
       <h1 class="md:text-6xl text-4xl font-thin container">
         <span class="font-bold">Contact</span>

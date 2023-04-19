@@ -1,5 +1,9 @@
 <template>
   <div>
+    <Head>
+      <Title>Home | Portfolio</Title>
+      <Meta name="description" content="My personal blog and porfolio" />
+    </Head>
     <section class="relative">
       <img
         class="lg:absolute lg:w-1/3 lg:right-0 lg:top-0"
@@ -217,7 +221,9 @@
       <div class="bg-white py-14">
         <div class="container">
           <div class="mx-auto lg:mx-0 text-center">
-            <h2 class="font-thin tracking-tight text-gray-900 text-3xl md:text-6xl">
+            <h2
+              class="font-thin tracking-tight text-gray-900 text-3xl md:text-6xl"
+            >
               Recent <span class="font-bold">Blog</span> Posts
             </h2>
             <p class="mt-5 text-lg leading-8 text-gray-600">

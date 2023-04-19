@@ -1,5 +1,8 @@
 <template>
   <div>
+    <Head>
+      <Title>Resume | Portfolio</Title>
+    </Head>
     <section class="mt-10 relative">
       <h1 class="md:text-6xl text-4xl font-thin container">
         <span class="font-bold">Resume</span>
@@ -10,7 +13,7 @@
     </section>
     <section class="container">
       <div class="lg:px-64 lg:pt-52 lg:pb-40 lg:mt-10 md:mt-44 mt-20">
-        <h1 class="font-thin text-5xl">
+        <h1 class="font-thin md:text-5xl text-2xl">
           <span class="font-bold">Professional</span> Summary
         </h1>
         <p class="mt-10 text-lg/loose">
@@ -33,7 +36,7 @@
         class="w-2/5 bg-cyan-300 md:h-40 h-20 absolute left-0 top-5 -z-10"
       ></div>
       <div class="lg:px-60 lg:pt-48 lg:pb-40 lg:mt-10 md:mt-44 mt-28 px-10">
-        <p class="font-bold lg:text-3xl/relaxed text-xl/relaxed">
+        <p class="font-bold lg:text-3xl/loose text-xl/loose">
           <span class="p-1 bg-gray-300">Writing</span>&nbsp;
           <span class="p-1 bg-gray-300">Project Management</span>&nbsp;
           <span class="p-1 bg-gray-300">Laravel</span>&nbsp;
