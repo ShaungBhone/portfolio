@@ -1,3 +1,21 @@
+<script setup>
+const supabase = useSupabaseClient();
+const user = useSupabaseUser();
+const loading = ref(true);
+loading.value = false;
+async function signOut() {
+  try {
+    loading.value = true;
+    let { error } = await supabase.auth.signOut();
+    if (error) throw error;
+    user.value = null;
+  } catch (error) {
+    alert(error.message);
+  } finally {
+    loading.value = false;
+  }
+}
+</script>
 <template>
   <div class="container">
     <nav class="lg:flex lg:justify-between py-7 md:py-11">
@@ -91,6 +109,14 @@
           </li>
           <li class="hover:text-gray-500 text-gray-900">
             <NuxtLink to="/blog">Blog</NuxtLink>
+          </li>
+          <li v-if="user" class="hover:text-gray-500 text-gray-900">
+            <button class="cursor-pointer" @click="signOut" :disabled="loading">
+              Sign Out
+            </button>
+          </li>
+          <li v-else class="hover:text-gray-500 text-gray-900">
+            <NuxtLink to="/login">Login</NuxtLink>
           </li>
           <li class="hover:text-gray-500 text-gray-900 my-auto">
             <NuxtLink to="https://www.linkedin.com/in/shaungbhone/">

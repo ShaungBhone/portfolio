@@ -1,3 +1,19 @@
+<script setup>
+import { onMounted, ref } from "vue";
+const supabase = useSupabaseClient();
+const user = useSupabaseUser();
+const items = ref([]);
+
+onMounted(async () => {
+  const { data, error } = await supabase.from("blogs").select("*");
+  if (error) {
+    console.error(error);
+  } else {
+    items.value = data;
+    console.log(items);
+  }
+});
+</script>
 <template>
   <div>
     <Head>
@@ -11,7 +27,9 @@
         class="w-3/5 bg-cyan-300 md:h-40 h-20 absolute left-0 top-6 -z-10"
       ></div>
     </section>
-
+    <ul>
+      <li v-for="item in items" :key="item.id">{{ item.title }}</li>
+    </ul>
     <article class="mt-10">
       <div class="py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">

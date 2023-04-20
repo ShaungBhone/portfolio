@@ -43,6 +43,7 @@
           <span class="p-1 bg-gray-300">Nodejs</span>&nbsp;
           <span class="p-1 bg-gray-300">Vuejs</span>&nbsp;
           <span class="p-1 bg-gray-300">React</span>&nbsp;
+          <span class="p-1 bg-gray-300">Livewire</span>&nbsp;
           <span class="p-1 bg-gray-300">Tailwind</span>&nbsp;
           <span class="p-1 bg-gray-300">PostgreSQL</span>&nbsp;
           <span class="p-1 bg-gray-300">MySQL</span>&nbsp;
