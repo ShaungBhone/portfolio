@@ -74,7 +74,9 @@ onMounted(async () => {
         <span>Creative Initiatives</span>
       </p>
       <div class="mt-20">
-        <NuxtLink class="primary-btn" to="/resume">Full Resume</NuxtLink>
+        <a href="/pdf/BMZ-RESUME-2023.pdf" download class="primary-btn"
+          >Download Resume</a
+        >
       </div>
     </section>
     <section class="md:mt-10 mt-28">

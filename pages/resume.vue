@@ -24,7 +24,9 @@
           that meet client needs and enhance user experiences.
         </p>
         <div class="mt-20">
-          <NuxtLink class="primary-btn" to="/resume">Download Resume</NuxtLink>
+          <a href="/pdf/BMZ-RESUME-2023.pdf" download class="primary-btn"
+            >Download Resume</a
+          >
         </div>
       </div>
     </section>
@@ -35,7 +37,9 @@
       <div
         class="w-2/5 bg-cyan-300 md:h-40 h-20 absolute left-0 top-5 -z-10"
       ></div>
-      <div class="lg:px-60 lg:pt-48 lg:pb-40 lg:mt-10 md:mt-44 mt-28 px-10 container">
+      <div
+        class="lg:px-60 lg:pt-48 lg:pb-40 lg:mt-10 md:mt-44 mt-28 px-10 container"
+      >
         <p class="font-bold lg:text-3xl/loose text-xl/loose">
           <span class="p-1 bg-gray-300">Writing</span>&nbsp;
           <span class="p-1 bg-gray-300">Project Management</span>&nbsp;
