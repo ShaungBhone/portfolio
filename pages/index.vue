@@ -51,7 +51,7 @@ onMounted(async () => {
       ></div>
     </section>
     <section class="container xl:px-96 md:mt-44 mt-24">
-      <p class="text-lg">
+      <p class="font-normal text-lg leading-loose">
         I've been learning to code for 4 years, after switching careers. I
         started with HTML, CSS, and javascript. And I made a simple static
         project called Yangon Night. But have really found a passion for backend
@@ -61,7 +61,7 @@ onMounted(async () => {
         Sometimes, contributing the Burmese language to packages like filament
         admin and voyager admin, and others. However, I need to level up my
         skill and change to another company as a full-stack developer called
-        MINT. Currently, work here.
+        MINT.
       </p>
       <p class="md:mt-14 mt-5 text-2xl/loose md:text-4xl/relaxed font-thin">
         <span>Content Strategy</span>&nbsp;
