@@ -133,12 +133,16 @@ onMounted(async () => {
       ></div>
     </section>
     <section class="container mt-48">
-      <div class="bg-white py-12 sm:py-24">
+      <div class="bg-white py-12 sm:py-16">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div
-            class="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5"
+            class="mx-auto grid max-w-lg items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5"
           >
-            <a href="https://msmemm.org/en" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://msmemm.org/en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                 src="~/assets/images/msme.png"
@@ -272,6 +276,8 @@ onMounted(async () => {
                 height="48"
               />
             </a>
+          </div>
+          <div class="block md:flex mt-10 justify-center space-x-12">
             <a href="https://www.edventuremm.com" target="_blank">
               <img
                 class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
