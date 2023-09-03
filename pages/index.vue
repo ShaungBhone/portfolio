@@ -73,7 +73,7 @@ onMounted(async () => {
         <span>Creative Initiatives</span>
       </p>
       <div class="mt-20">
-        <a href="/pdf/BMZ-RESUME-2023.pdf" download class="primary-btn"
+        <a href="/pdf/30.8.2023.pdf" download class="primary-btn"
           >Download Resume</a
         >
       </div>
