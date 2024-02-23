@@ -44,7 +44,7 @@ onMounted(async () => {
     </section>
     <section class="xl:mt-60 lg:mt-28 relative">
       <h1 class="md:text-6xl text-4xl font-thin container">
-        My 3-Year Odyssey in <span class="font-bold">Code</span>
+        My 4-Year Odyssey in <span class="font-bold">Code</span>
       </h1>
       <div
         class="w-3/5 bg-cyan-300 md:h-40 h-20 absolute left-0 top-6 -z-10"
