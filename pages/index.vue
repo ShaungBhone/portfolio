@@ -52,7 +52,7 @@ onMounted(async () => {
     </section>
     <section class="container xl:px-96 md:mt-44 mt-24">
       <p class="font-normal text-lg leading-loose">
-        I've been learning to code for 3 years, after switching careers. I
+        I've been learning to code for 4 years, after switching careers. I
         started with HTML, CSS, and javascript. And I made a simple static
         project called Yangon Night. But have really found a passion for backend
         development. So I started with PHP with the laravel framework and I got
@@ -73,7 +73,7 @@ onMounted(async () => {
         <span>Creative Initiatives</span>
       </p>
       <div class="mt-20">
-        <a href="/pdf/30.8.2023.pdf" download class="primary-btn"
+        <a href="/pdf/latest-resume.pdf" download class="primary-btn"
           >Download Resume</a
         >
       </div>

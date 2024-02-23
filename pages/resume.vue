@@ -24,7 +24,7 @@
           that meet client needs and enhance user experiences.
         </p>
         <div class="mt-20">
-          <a href="/pdf/BMZ-RESUME-2023.pdf" download class="primary-btn"
+          <a href="/pdf/latest-resume.pdf" download class="primary-btn"
             >Download Resume</a
           >
         </div>
